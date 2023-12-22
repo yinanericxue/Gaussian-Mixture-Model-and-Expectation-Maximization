@@ -88,4 +88,58 @@
 
 #### Model ( 0 or 1 )
 ![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/2045a529-f10a-4f0f-bb8a-ea3b72d71bf6)
+
 ![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/7fd1656d-95af-4108-b7a6-dc30ce627ed3)
+
+#### Sample PDF -  (xi,yi)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/6e280aeb-4015-4aad-91b0-7184cf82acdc)
+
+#### MLE
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/2a963d86-9db9-4a3e-9be8-2aa9da7a01c9)
+
+#### Log MLE
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/401b7e61-49a2-428e-992b-5adabd22a1b8)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/c389c5d2-3b0e-4c24-89fd-46136e8cd3e7)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/dccc526f-2f18-45a6-a9c3-11e37162866e)
+
+#### Marginal Probability
+#### https://en.wikipedia.org/wiki/Marginal_distribution
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/75998d98-1cf1-4628-be5f-66dfa2b21227)
+
+
+#### Prior Probability、Posterior Probability
+#### https://support.minitab.com/en-us/minitab/20/help-and-how-to/statistical-modeling/multivariate/supporting-topics/discriminant-analysis/what-are-posterior-and-prior-probabilities/
+#### https://towardsdatascience.com/understand-bayes-rule-likelihood-prior-and-posterior-34eae0f378c5
+#### https://www.cnblogs.com/picassooo/p/14368026.html
+
+
+#### Convex、Concave
+#### https://en.wikipedia.org/wiki/Convex_function
+#### https://en.wikipedia.org/wiki/Concave_function
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/c1c3b0a4-0d48-447d-a911-73a37719c4fd)
+
+#### Jensen's inequality - Concave
+
+#### E ( log(x) ) <= Log ( E(x) )
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/91985195-1c04-42a1-b89d-3ff78530ba9f)
+
+
+#### f = Log(x) is concave function:
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/ac2b1e04-8a44-480b-a1ff-35eefc20a983)
+
+
+
+#### Jensen's inequality - Convex
+#### https://en.wikipedia.org/wiki/Jensen%27s_inequality
+#### X is a random variable:
+#### P(x=a) = 0.5;
+#### P(x=b) = 0.5;
+#### E(x) = P(a) x a + P(b) x b = (a + b)/2
+#### E(f(x)) = P(a) x f(a) + P(b) x f(b) =  0.5 f(a) + 0.5 f(b)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/0ec230f8-194d-44d1-a3d6-8fb61c561cf8)
+#### f(E(x)) = f(0.5 a + 0.5 b)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/ddc221b4-7ca8-466b-9f8f-9d88726fd555)
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/77d1deec-6fbd-44cc-94ed-d8db06fbf0f6)
+#### When the random variable - x is a constant，E(f(x)) = f(E(x)) 
+#### When f(x) is a constant，E(f(x)) = f(E(x))
+![image](https://github.com/yinanericxue/Gaussian-Mixture-Model-and-Expectation-Maximization/assets/102645083/a1cdd053-6aab-41e8-ab47-dd92be28ed73)
